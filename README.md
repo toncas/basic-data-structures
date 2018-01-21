@@ -4,7 +4,7 @@ Greetings! Thank you for taking the time to read this.
 As of January 20, 2018, this project is still under contruction.
 
 
-##Introduction
+## Introduction
 In order for me to solidify fundamental concepts in computer science, I have decided to implement the following 
 data structures using JavaScript:
 
