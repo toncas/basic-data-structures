@@ -1,7 +1,7 @@
 # basic-data-structures
 
 Greetings! Thank you for taking the time to read this.
-As of January 20, 2018, this project is still under contruction.
+As of February 2, 2018, this project is still under contruction.
 
 
 ## Introduction
@@ -17,12 +17,11 @@ data structures using JavaScript:
 * Binary Search Tree
 * Hash Map
 
-##Future:
+## Future:
 There is always room for improvement and further implementation.
 
-These are all 'maybes'
+These are all 'maybes':
 
 * Doubly Linked List
 * Heap
 * Self-Balancing Binary Search Tree
-* 
