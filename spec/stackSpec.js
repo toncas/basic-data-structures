@@ -54,6 +54,7 @@ describe('Stack', () => {
   it(`should handle pop of an empty stack`, () => {
     stack.pop();
     expect(stack.size()).to.equal(0);
+    expect(stack.pop()).to.equal(undefined);
     stack.pop();
     expect(stack.size()).to.equal(0);
     stack.pop();
