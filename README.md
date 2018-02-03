@@ -17,7 +17,7 @@ data structures using JavaScript:
 * Binary Search Tree
 * Hash Map
 
-## Future:
+## Future
 There is always room for improvement and further implementation.
 
 These are all 'maybes':
