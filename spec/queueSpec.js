@@ -1,4 +1,4 @@
-xdescribe(`Queue`, () => {
+describe(`Queue`, () => {
   let queue;
 
   beforeEach(() => queue = new Queue());
