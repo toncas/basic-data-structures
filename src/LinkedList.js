@@ -15,15 +15,29 @@ class LinkedList {
   }
 
   size() {
-    return _length;
+    return this._length;
   }
 
   addToHead(value) {
-
+    let node = new Node(value);
+    node.next = this.head;
+    this.head = node;
+    this._length += 1;
   }
 
   addToEnd(value) {
+    if(!this.head) {
+      this.addToHead(value);
+    } else {
+      let temp = this.head;
+      let node = new Node(value);
 
+      while(temp.next !== null) {
+        temp = temp.next;
+      }
+      temp.next = node;
+      this._length += 1;
+    }
   }
 
   removeHead() {
