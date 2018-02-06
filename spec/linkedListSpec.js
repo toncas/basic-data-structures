@@ -39,5 +39,29 @@ describe(`Linked List`, function() {
     expect(linkedList.size()).to.equal(0);
   });
 
+  it(`should update head when adding a new value to the start of the list`, () => {
+    linkedList.addToHead(1);
+    expect(linkedList.size()).to.equal(1);
+    expect(linkedList.head.value).to.equal(1);
+    expect(linkedList.head.next).to.equal(null);
+
+    linkedList.addToHead(2);
+    expect(linkedList.size()).to.equal(2);
+    expect(linkedList.head.value).to.equal(2);
+    expect(linkedList.head.next.value).to.equal(1);
+  });
+
+  it(`should not update head when adding a new value to the end of the list`, () => {
+    linkedList.addToEnd(1);
+    expect(linkedList.size()).to.equal(1);
+    expect(linkedList.head.value).to.equal(1);
+    expect(linkedList.head.next).to.equal(null);
+
+    linkedList.addToEnd(2);
+    expect(linkedList.size()).to.equal(2);
+    expect(linkedList.head.value).to.equal(1);
+    expect(linkedList.head.next.value).to.equal(2);
+  });
+
 
 });
